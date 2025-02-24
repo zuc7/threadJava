@@ -1,5 +1,5 @@
 package trd;
-
+//Alessandro Zuccarelli 4BIA 24/02/2025
 public class Es1 {
 	public static void main(String[] args) {
 		Thread numeri= new Thread(()->{
