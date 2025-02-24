@@ -5,9 +5,9 @@ public class Esempio2{
 		Saluti s= new Saluti("n di n");
 		Saluti e= new Saluti("egro");
 		s.start();
-		//s.join();
+		s.join(); //aspetta la fine del thread per cominciare il resto
 		e.start();
-		//e.join();
+		e.join();
 		System.out.println("FINITO");
 	}
 }
