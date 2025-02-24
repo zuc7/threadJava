@@ -5,7 +5,9 @@ public class Esempio2{
 		Saluti s= new Saluti("n di n");
 		Saluti e= new Saluti("egro");
 		s.start();
-		
+		//s.join();
 		e.start();
+		//e.join();
+		System.out.println("FINITO");
 	}
 }
